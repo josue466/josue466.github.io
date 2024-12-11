@@ -176,20 +176,11 @@ body {
     height: 100%;
 }
 
-#servicios .container {
-    min-height: 650px;
-    display: flex;
-    flex-direction: column;
-}
-
 #serviciosCarousel .row {
-    display: flex;
     justify-content: center;
     gap: 150px;
 }
 
 #serviciosCarousel .col-md-6 {
-    flex: 0 0 auto;
-    width: 40%;
     max-width: 350px;
 }
