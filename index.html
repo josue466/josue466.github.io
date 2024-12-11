@@ -100,111 +100,139 @@
     <section id="servicios" class="py-5">
         <div class="container">
             <h2 class="text-center mb-5">Nuestros Servicios</h2>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="card service-card">
-                        <img src="https://www.digivet.pe/wp-content/uploads/2022/03/vacunacion.jpg" class="card-img-top service-img" alt="Vacunación">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Vacunación</h5>
-                            <p class="card-text">No dejes a tu mascota sin su protección, te ayudamos a mantener su calendario de vacunación al día.</p>
-                            <button class="btn btn-primary" onclick="window.location.href='#contacto';">Contactanos</button>
+            <div id="serviciosCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card service-card">
+                                    <img src="https://www.digivet.pe/wp-content/uploads/2022/03/vacunacion.jpg" class="card-img-top service-img" alt="Vacunación">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Vacunación</h5>
+                                        <p class="card-text">No dejes a tu mascota sin su protección, te ayudamos a mantener su calendario de vacunación al día.</p>
+                                        <button class="btn btn-primary" onclick="window.location.href='#contacto';">Contactanos</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card service-card">
+                                    <img src="https://www.veterinariadogtor.com/pictures/pages/14/FOTO-CONSULTA-2.jpg" class="card-img-top service-img" alt="Consulta General">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Consulta General</h5>
+                                        <p class="card-text">Ofrecemos atención médica para tus mascotas, desde chequeos rutinarios hasta emergencias.</p>
+                                        <button class="btn btn-primary" onclick="window.location.href='#contacto';">Contactanos</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card service-card">
+                                    <img src="https://www.clinicaveterinariamh.com/wp-content/uploads/2020/08/pet-groomer-makes-grooming-dog-PFXUQZS-1024x684.jpg" class="card-img-top service-img" alt="Peluquería Canina">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Peluquería Canina</h5>
+                                        <p class="card-text">Cortes de pelo, baño y spa para mantener a tu mascota limpia y saludable.</p>
+                                        <button class="btn btn-primary" onclick="window.location.href='#contacto';">Contactanos</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card service-card">
+                                    <img src="https://www.digivet.pe/wp-content/uploads/2022/03/consultas.jpg" class="card-img-top service-img" alt="Consultas veterinarias a domicilio">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Consultas veterinarias a domicilio</h5>
+                                        <p class="card-text">Si tu mascota se pone mal, no te preocupes, nosotros vamos a ti.</p>
+                                        <button class="btn btn-primary" onclick="window.location.href='#contacto';">Contactanos</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card service-card">
+                                    <img src="https://www.shutterstock.com/image-photo/veterinarian-during-dog-surgery-selective-600nw-2287183435.jpg" class="card-img-top service-img" alt="Cirugía">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Cirugía</h5>
+                                        <p class="card-text">Realizamos cirugías generales y especializadas con el mayor cuidado y profesionalismo.</p>
+                                        <button class="btn btn-primary" onclick="window.location.href='#contacto';">Contactanos</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card service-card">
+                                    <img src="https://portaleducacao.vteximg.com.br/arquivos/ids/157870/curso-online-odontologia-veterinaria.jpg?v=636573253039500000" class="card-img-top service-img" alt="Odontología Veterinaria">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Odontología Veterinaria</h5>
+                                        <p class="card-text">Cuidado dental especializado para prevenir problemas bucales y mantener los dientes y encías de tu mascota en óptimas condiciones.</p>
+                                        <button class="btn btn-primary" onclick="window.location.href='#contacto';">Contactanos</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card service-card">
+                                    <img src="https://petscan.com.mx/wp-content/uploads/2021/12/rayos-x-perros-petscan.jpg" class="card-img-top service-img" alt="Ecografía y Radiografía">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Ecografía y Radiografía</h5>
+                                        <p class="card-text">Realizamos ecografías y radiografías para un diagnóstico preciso y rápido de diferentes condiciones médicas.</p>
+                                        <button class="btn btn-primary" onclick="window.location.href='#contacto';">Contactanos</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card service-card">
+                                    <img src="https://postgradoveterinaria.com/wp-content/uploads/aditivos-en-nutricion-animal-1.jpg" class="card-img-top service-img" alt="Control Nutricional">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Control Nutricional</h5>
+                                        <p class="card-text">Ofrecemos asesoramiento nutricional para garantizar una dieta equilibrada y adecuada según las necesidades específicas de tu mascota.</p>
+                                        <button class="btn btn-primary" onclick="window.location.href='#contacto';">Contactanos</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card service-card">
+                                    <img src="https://www.digivet.pe/wp-content/uploads/2020/09/viajes.jpg" class="card-img-top service-img" alt="Documentación para Viajes">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Documentación para Viajes</h5>
+                                        <p class="card-text">Contamos con más de 10 años de experiencia en documentación para viajes nacionales e internacionales.</p>
+                                        <button class="btn btn-primary" onclick="window.location.href='#contacto';">Contactanos</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card service-card">
+                                    <img src="https://www.digivet.pe/wp-content/uploads/2022/03/esterilizacion.jpg" class="card-img-top service-img" alt="Esterilización">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Esterilización</h5>
+                                        <p class="card-text">Realizamos la cirugía de esterilización y castración, reduciendo el riesgo de enfermedades.</p>
+                                        <button class="btn btn-primary" onclick="window.location.href='#contacto';">Contactanos</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="card service-card">
-                        <img src="https://www.veterinariadogtor.com/pictures/pages/14/FOTO-CONSULTA-2.jpg" class="card-img-top service-img" alt="Consulta General">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Consulta General</h5>
-                            <p class="card-text">Ofrecemos atención médica para tus mascotas, desde chequeos rutinarios hasta emergencias.</p>
-                            <button class="btn btn-primary" onclick="window.location.href='#contacto';">Contactanos</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="card service-card">
-                        <img src="https://www.clinicaveterinariamh.com/wp-content/uploads/2020/08/pet-groomer-makes-grooming-dog-PFXUQZS-1024x684.jpg" class="card-img-top service-img" alt="Peluquería Canina">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Peluquería Canina</h5>
-                            <p class="card-text">Cortes de pelo, baño y spa para mantener a tu mascota limpia y saludable.</p>
-                            <button class="btn btn-primary" onclick="window.location.href='#contacto';">Contactanos</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="card service-card">
-                        <img src="https://www.digivet.pe/wp-content/uploads/2022/03/consultas.jpg" class="card-img-top service-img" alt="Consultas veterinarias a domicilio">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Consultas veterinarias a domicilio</h5>
-                            <p class="card-text">Si tu mascota se pone mal, no te preocupes, nosotros vamos a ti.</p>
-                            <button class="btn btn-primary" onclick="window.location.href='#contacto';">Contactanos</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="card service-card">
-                        <img src="https://www.shutterstock.com/image-photo/veterinarian-during-dog-surgery-selective-600nw-2287183435.jpg" class="card-img-top service-img" alt="Cirugía">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Cirugía</h5>
-                            <p class="card-text">Realizamos cirugías generales y especializadas con el mayor cuidado y profesionalismo.</p>
-                            <button class="btn btn-primary" onclick="window.location.href='#contacto';">Contactanos</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="card service-card">
-                        <img src="https://portaleducacao.vteximg.com.br/arquivos/ids/157870/curso-online-odontologia-veterinaria.jpg?v=636573253039500000" class="card-img-top service-img" alt="Odontología Veterinaria">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Odontología Veterinaria</h5>
-                            <p class="card-text">Cuidado dental especializado para prevenir problemas bucales y mantener los dientes y encías de tu mascota en óptimas condiciones.</p>
-                            <button class="btn btn-primary" onclick="window.location.href='#contacto';">Contactanos</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="card service-card">
-                        <img src="https://petscan.com.mx/wp-content/uploads/2021/12/rayos-x-perros-petscan.jpg" class="card-img-top service-img" alt="Ecografía y Radiografía">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Ecografía y Radiografía</h5>
-                            <p class="card-text">Realizamos ecografías y radiografías para un diagnóstico preciso y rápido de diferentes condiciones médicas.</p>
-                            <button class="btn btn-primary" onclick="window.location.href='#contacto';">Contactanos</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="card service-card">
-                        <img src="https://postgradoveterinaria.com/wp-content/uploads/aditivos-en-nutricion-animal-1.jpg" class="card-img-top service-img" alt="Control Nutricional">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Control Nutricional</h5>
-                            <p class="card-text">Ofrecemos asesoramiento nutricional para garantizar una dieta equilibrada y adecuada según las necesidades específicas de tu mascota.</p>
-                            <button class="btn btn-primary" onclick="window.location.href='#contacto';">Contactanos</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="card service-card">
-                        <img src="https://www.digivet.pe/wp-content/uploads/2020/09/viajes.jpg" class="card-img-top service-img" alt="Documentación para Viajes">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Documentación para Viajes</h5>
-                            <p class="card-text">Contamos con más de 10 años de experiencia en documentación para viajes nacionales e internacionales.</p>
-                            <button class="btn btn-primary" onclick="window.location.href='#contacto';">Contactanos</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="card service-card">
-                        <img src="https://www.digivet.pe/wp-content/uploads/2022/03/esterilizacion.jpg" class="card-img-top service-img" alt="Esterilización">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Esterilización</h5>
-                            <p class="card-text">Realizamos la cirugía de esterilización y castración, reduciendo el riesgo de enfermedades.</p>
-                            <button class="btn btn-primary" onclick="window.location.href='#contacto';">Contactanos</button>
-                        </div>
-                    </div>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#serviciosCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#serviciosCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
             </div>
         </div>
     </section>
-
+        
     <section id="equipo" class="py-5 bg-light">
         <div class="container">
             <h2 class="text-center mb-5">Nuestro Equipo</h2>
