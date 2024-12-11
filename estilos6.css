@@ -34,41 +34,46 @@ body {
     font-size: 28px;
     font-weight: bold;
 }
-.carousel-item {
+#vetCarousel .carousel-item {
     height: 920px;
 }
 
-.carousel-item img {
+#vetCarousel .carousel-item img {
     height: 100%;
     object-fit: cover;
+    filter: brightness(0.4);
 }
 
-.carousel-caption {
+#vetCarousel .carousel-caption {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.carousel-caption h2 {
-    font-size: 2.5rem;
+#vetCarousel .carousel-caption h2 {
+    font-size: 6rem;
+    color: #a577e6;
+    font-weight: bold;
+    font-family: 'Merriweather', serif; 
 }
 
-.carousel-caption p {
-    font-size: 1.2rem;
+#vetCarousel .carousel-caption p {
+    font-size: 3rem;
+    color: #6f3fb3;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
     filter: invert(100%);
 }
 
-.service-card {
+#serviciosCarousel .service-card {
     border: none;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s;
@@ -77,21 +82,21 @@ body {
     margin: 0 auto;
 }
 
-.service-card:hover {
+#serviciosCarousel .service-card:hover {
     transform: translateY(-10px);
 }
 
-.service-img {
+#serviciosCarousel .service-img {
     height: 200px;
     object-fit: cover;
     border-radius: 17px;
 }
 
-.card-body {
+#serviciosCarousel .card-body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
+    height: 270px;
 }
 
 .btn-primary {
@@ -158,4 +163,33 @@ body {
     color: white;
     text-decoration: none;
     transition: opacity 0.3s;
+}
+
+#serviciosCarousel .carousel-inner {
+    padding-bottom: 30px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+#serviciosCarousel {
+    flex-grow: 1;
+    height: 100%;
+}
+
+#servicios .container {
+    min-height: 650px;
+    display: flex;
+    flex-direction: column;
+}
+
+#serviciosCarousel .row {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+#serviciosCarousel .col-md-6 {
+    flex: 0 0 auto;
+    width: 40%;
+    max-width: 350px;
 }
